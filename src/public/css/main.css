@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.content {
+    height: calc(100vh - 55px);
+    width: 100vw;
+
+}
+
+#sidemenu {
+    position:fixed;
+    margin-top: 57px;
+    top: 0;
+    bottom: 0;
+}
+
+#sidemenu ul {
+    list-style: none;
+}
